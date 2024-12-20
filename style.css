@@ -1,0 +1,58 @@
+#myContainer {
+  width: 600px;
+  height: 600px;
+  position: relative;
+  background: grey;
+}
+
+#startHeader {
+  text-align: center;
+}
+
+#gamePiece {
+  width: 50px;
+  height: 50px;
+  position: absolute;
+  background-color: black;
+}
+
+#obs {
+  width: 200px;
+  height: 50px;
+  position: absolute;
+  top: 200px;
+  left: 125px;
+  background-color: red;
+}
+
+#obs1 {
+  width: 200px;
+  height: 50px;
+  position: absolute;
+  top: 75px;
+  left: 125px;
+  background-color: red;
+}
+
+#obs2 {
+  width: 50px;
+  height: 200px;
+  position: absolute;
+  top: 75px;
+  /*   left: 50px; */
+  background-color: red;
+}
+
+.spin {
+  animation: rotate 4s ease-out;
+}
+
+@keyframes rotate {
+  0% {
+    transform: rotate(-200deg);
+  }
+
+  100% {
+    transform: rotate(360deg);
+  }
+}
