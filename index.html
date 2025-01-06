@@ -8,19 +8,31 @@
 </head>
 
 <body>
-<p>
-  <button onclick="reset()">Reset</button>
-<h1 id="startHeader"></h1>
-</p>
+<div id="main">
+  <div id="infoHeader">
+    <h1 id="startHeader"></h1>
+    <h3 id="reset"> Score decreases as time passes! Get to the end marked in green as fast as you can without touching anything by using the arrow keys to change the direction of the cube!</h3>
 
-<div id="myContainer">
-  <div id="gamePiece">
+    <h2 id="myTime"></h2>
+    <h2 id="highScore"></h2>
+    <h3 id="reset">Press "R" to restart! </h3>
   </div>
-  <div id="obs"></div>
-  <div id="obs1"></div>
-  <div id="obs2"></div>
-</div>
 
+  <div id="myContainer">
+    <div id="gamePiece">
+    </div>
+    <div id="hobs1" class="ob"></div>
+    <div id="hobs2" class="ob"></div>
+    <div id="hobs3" class="ob"></div>
+    <div id="vobs1" class="ob"></div>
+    <div id="vobs2" class="ob"></div>
+    <div id="vobs3" class="ob"></div>
+    <div id="vobs4" class="ob"></div>
+    <div id="vobs5" class="ob"></div>
+    <div id="winTile" class="ob"></div>
+  </div>
+</div>
+  
   <script src = "script.js"></script>
   </body>
 
